@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+body, html {
+  height: 100%; }
+
+.clear {
+  clear: both; }
+
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+  width: 100%;
+  height: 100%; }
+
+header {
+  background-color: #56167e;
+  height: 70px;
+  transition: 0.3s; }
+  header .logo {
+    position: relative;
+    top: 10px;
+    height: 100%;
+    font-weight: lighter;
+    float: left; }
+    header .logo img {
+      width: 50px;
+      height: 50px; }
+    header .logo a {
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      line-height: 70px; }
+  header .nav-mobile {
+    display: none;
+    float: right;
+    line-height: 70px;
+    margin-right: 10px;
+    color: white; }
+    header .nav-mobile h3 {
+      cursor: pointer; }
+    header .nav-mobile ul {
+      position: absolute;
+      z-index: 1;
+      top: 70px;
+      left: 0px;
+      width: 100%;
+      height: 0px;
+      overflow-y: hidden;
+      background-color: white;
+      text-align: center;
+      transition: 0.3s; }
+      header .nav-mobile ul li {
+        transition: 0.3s;
+        cursor: pointer; }
+        header .nav-mobile ul li:hover {
+          background-color: #ececec; }
+        header .nav-mobile ul li a {
+          text-decoration: none;
+          color: #4b4b4b; }
+  header .nav-desktop {
+    float: right; }
+    header .nav-desktop li {
+      cursor: pointer;
+      display: inline-block;
+      transition: 0.3s; }
+      header .nav-desktop li:hover {
+        background-color: #4d1370; }
+      header .nav-desktop li a {
+        font-weight: lighter;
+        line-height: 70px;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-decoration: none;
+        padding: 0 15px; }
+
+section.chamada-principal {
+  position: relative;
+  background-image: url("../images/chamada.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px; }
+  section.chamada-principal .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); }
+  section.chamada-principal .person-chamada {
+    width: 40%;
+    height: 100%;
+    float: left; }
+    section.chamada-principal .person-chamada .person-img {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      height: 100%;
+      background-image: url("../images/person.png");
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto; }
+  section.chamada-principal .chamada-email {
+    position: relative;
+    text-align: center;
+    width: 60%;
+    max-width: 800px;
+    height: 100%;
+    float: left;
+    z-index: 0; }
+    section.chamada-principal .chamada-email img {
+      width: 120px;
+      height: 120px; }
+    section.chamada-principal .chamada-email .form-chamada {
+      position: relative;
+      z-index: 1;
+      top: 40%;
+      transform: translateY(-50%);
+      width: 100%;
+      padding: 0 2%; }
+    section.chamada-principal .chamada-email h2 {
+      color: white;
+      font-weight: lighter;
+      margin: 20px 0; }
+    section.chamada-principal .chamada-email input[type=email] {
+      width: 100%;
+      height: 45px;
+      border-radius: 10px;
+      border: 0;
+      padding-left: 10px;
+      outline: 0;
+      font-size: 17px; }
+    section.chamada-principal .chamada-email input[type=submit] {
+      margin-top: 15px;
+      width: 100%;
+      max-width: 200px;
+      height: 45px;
+      border-radius: 15px;
+      border: 0;
+      color: white;
+      background-color: #7c2095;
+      font-weight: lighter;
+      font-size: 16px;
+      outline: 0;
+      cursor: pointer;
+      transition: 0.4s; }
+      section.chamada-principal .chamada-email input[type=submit]:hover {
+        background-color: #681a7e; }
+
+section.sobre {
+  position: relative;
+  background-color: #ebebeb;
+  width: 100%;
+  max-height: 600px;
+  padding: 50px 0; }
+  section.sobre .img-fundador {
+    float: left;
+    width: 40%;
+    text-align: center; }
+    section.sobre .img-fundador img {
+      width: 80%;
+      border-radius: 45px; }
+  section.sobre .texto-chamada-principal {
+    color: #777;
+    padding: 0 30px;
+    float: right;
+    width: 60%; }
+    section.sobre .texto-chamada-principal h2 {
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: lighter;
+      margin-bottom: 30px; }
+    section.sobre .texto-chamada-principal p {
+      font-size: 17px;
+      font-weight: lighter;
+      margin-bottom: 30px; }
+    section.sobre .texto-chamada-principal .btn-redes-sociais {
+      width: 100%; }
+      section.sobre .texto-chamada-principal .btn-redes-sociais a {
+        text-decoration: none;
+        color: white;
+        padding: 12px 18px;
+        border-radius: 2px;
+        margin-right: 10px;
+        transition: 0.3s; }
+      section.sobre .texto-chamada-principal .btn-redes-sociais a.insta {
+        color: #dd4a72;
+        border: 2px solid  #dd4a72; }
+        section.sobre .texto-chamada-principal .btn-redes-sociais a.insta:hover {
+          background-color: #dd4a72;
+          transition: 0.3s;
+          color: white;
+          border: 2px solid  #dd4a72; }
+      section.sobre .texto-chamada-principal .btn-redes-sociais a.yt {
+        color: #d32f2f;
+        border: 2px solid #d32f2f; }
+        section.sobre .texto-chamada-principal .btn-redes-sociais a.yt:hover {
+          background-color: #d32f2f;
+          color: white; }
+
+section.anuncio {
+  position: relative;
+  background-image: url("../images/bg-video.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 40px 0;
+  padding-bottom: 120px; }
+  section.anuncio .center {
+    max-width: 960px; }
+  section.anuncio h2.title-anuncio, section.anuncio p.sub-title {
+    color: red;
+    text-align: center;
+    width: 100%; }
+  section.anuncio h2.title-anuncio {
+    font-size: 50px;
+    padding-top: 50px; }
+  section.anuncio p.sub-title {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px; }
+  section.anuncio .video-anuncio {
+    background-color: white;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    border-radius: 10px; }
+    section.anuncio .video-anuncio iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 0;
+      width: 98%;
+      height: 97%; }
+  section.anuncio h6 {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal; }
+  section.anuncio .preco-anuncio {
+    text-align: center; }
+    section.anuncio .preco-anuncio h2 {
+      margin-top: 20px;
+      color: white;
+      font-weight: normal; }
+      section.anuncio .preco-anuncio h2 b {
+        text-decoration: line-through;
+        font-size: 25px; }
+    section.anuncio .preco-anuncio p {
+      margin-top: 15px;
+      color: white;
+      font-size: 21px; }
+      section.anuncio .preco-anuncio p b {
+        color: #0000c8;
+        font-size: 25px; }
+    section.anuncio .preco-anuncio span {
+      font-size: 15px;
+      color: white; }
+  section.anuncio a.btn-chamada {
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#00d48e, #00a36d);
+    width: 100%;
+    padding: 10px;
+    top: 50%;
+    text-align: center;
+    font-size: 21px;
+    border-radius: 20px;
+    border-bottom: 4px solid #009060; }
+    section.anuncio a.btn-chamada:hover {
+      background-image: linear-gradient(#00cc88, #00b87a); }
+
+section.descricao {
+  padding: 90px 0;
+  padding-top: 30px;
+  background-color: #ebebeb; }
+  section.descricao h2.title-descricao {
+    color: #777;
+    text-align: center;
+    margin-bottom: 60px; }
+  section.descricao .descricao-single {
+    padding: 0 10px;
+    width: 33.3%;
+    float: left;
+    text-align: center; }
+    section.descricao .descricao-single h3 {
+      font-size: 50px;
+      color: #4e5d94;
+      margin-bottom: 10px; }
+    section.descricao .descricao-single .text-desc p {
+      color: #4b4b4b; }
+
+.footer-top {
+  background-color: #7b1fa2;
+  color: white;
+  padding: 15px 0;
+  padding-bottom: 30px;
+  text-align: center; }
+  .footer-top p {
+    margin-bottom: 10px; }
+  .footer-top a.btn-whats {
+    background-color: #0cc20c;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 19px; }
+    .footer-top a.btn-whats:hover {
+      background-color: #0cd30c; }
+  .footer-top a.btn-yt {
+    background-color: #d10505;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 19px; }
+    .footer-top a.btn-yt:hover {
+      background-color: #e70505; }
+  .footer-top a.btn-insta {
+    background-color: #e43f5b;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 19px; }
+    .footer-top a.btn-insta:hover {
+      background-color: #ff4665; }
+  .footer-top a.btn-discord {
+    background-color: #4e5d94;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 19px; }
+    .footer-top a.btn-discord:hover {
+      background-color: #6073b6; }
+
+footer {
+  width: 100%;
+  background-color: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 15px 0; }
+
+@media (max-width: 768px) {
+  .person-chamada {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    float: none !important; }
+
+  .chamada-email {
+    position: absolute !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    float: none !important; }
+    .chamada-email .form-chamada img {
+      display: none !important; }
+
+  .img-fundador {
+    float: none !important;
+    width: 100% !important; }
+    .img-fundador img {
+      width: 50% !important; }
+
+  .texto-chamada-principal {
+    width: 100%;
+    color: #777;
+    padding: 0 30px;
+    text-align: center !important;
+    float: none !important;
+    width: 100% !important; }
+
+  section.sobre {
+    max-height: none !important; } }
+@media (max-width: 500px) {
+  .nav-desktop {
+    display: none !important; }
+
+  .nav-mobile {
+    display: block !important; } }
+@media (max-width: 375px) {
+  a.insta {
+    display: block;
+    margin-bottom: 10px; }
+
+  a.yt {
+    display: block; }
+
+  h2.title-anuncio {
+    font-size: 36px !important; }
+
+  section.anuncio .center {
+    max-width: none !important; }
+
+  .texto-chamada-principal h2 {
+    font-size: 24px !important; }
+
+  .btn-chamada {
+    font-size: 18px !important; } }
+
+/*# sourceMappingURL=style.css.map */
