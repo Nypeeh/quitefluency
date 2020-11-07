@@ -126,7 +126,7 @@
                         <h3 style="color:orange;"><i class="fas fa-exclamation-triangle"></i></h3>
                     </div><!--icon-desc-->
                     <div class="text-desc">
-                        <p>O aplicativo que vai ser utilizado nas aulas online será o Discord, uma plataforma com uma alta qualidade de áudio!</p>
+                        <p>É obrigatório se manter em um local livre de barulhos e utilizar fones de ouvido em caso de eco!</p>
                     </div><!--text-desc-->
                 </div><!--descricao-single-->
 
