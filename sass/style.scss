@@ -12,10 +12,17 @@ body,html {
 .clear {clear: both;}
 .center {max-width: 1280px;margin: 0 auto; padding: 0 2%; width: 100%;height: 100%;}
 
+.bg-top {
+    background-image: url('../images/chamada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header {
-    background-color: rgba(0,0,0,0.3);
+    background-color: transparent;
     height: 70px;
     transition: 0.3s;
+    background-color: rgba($color: #000000, $alpha: 0.2);
 
     .logo {
         position: relative;
@@ -105,9 +112,6 @@ header {
 
 section.chamada-principal {
     position: relative;
-    background-image: url('../images/chamada.jpg');
-    background-size: cover;
-    background-attachment: fixed;
     width: 100%;
     height: 600px;
 

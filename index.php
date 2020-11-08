@@ -24,9 +24,7 @@
     <link rel="shortcut icon" href="0em6.ico" type="image/x-icon">
 </head>
 <body>
-    
-    <section class="chamada-principal" id="chamada-principal">
-    
+    <div class="bg-top">
         <header>
             <div class="center">
                 <div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div><!--logo-->
@@ -49,25 +47,28 @@
                 <div class="clear"></div><!--clear-->
             </div><!--center-->
         </header>
+    
+        <section class="chamada-principal" id="chamada-principal">
 
-        <div class="overlay"></div><!--overlay-->
+            <div class="overlay"></div><!--overlay-->
 
-                <div class="person-chamada">
-                    <div class="person-img"></div><!--person-img-->
-                </div><!--person-chamada-->
+                    <div class="person-chamada">
+                        <div class="person-img"></div><!--person-img-->
+                    </div><!--person-chamada-->
 
-                <div class="chamada-email">
-                    <div class="form-chamada">
+                    <div class="chamada-email">
+                        <div class="form-chamada">
 
-                        <img src="images/logo.png" alt="">
-                        <h2>Faça parte da nossa turma e desenvolva seu inglês em 96 dias!</h2> <!-- Faca parte da nossa turma e desenvolva seu ingles em menos tempo! -->
-                        <input id="saiba-mais" type="submit" value="Saiba mais">
+                            <img src="images/logo.png" alt="">
+                            <h2>Faça parte da nossa turma e desenvolva seu inglês em 96 dias!</h2> <!-- Faca parte da nossa turma e desenvolva seu ingles em menos tempo! -->
+                            <input id="saiba-mais" type="submit" value="Saiba mais">
 
-                    </div><!--form-chamada-->
-                </div><!--chamada-email-->
-                <div class="clear"></div><!--clear-->
+                        </div><!--form-chamada-->
+                    </div><!--chamada-email-->
+                    <div class="clear"></div><!--clear-->
 
-    </section><!--chamada-principal-->
+        </section><!--chamada-principal-->
+    </div><!--bg-top-->
 
     <section class="sobre" id="sobre">
         <div class="center">
