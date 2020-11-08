@@ -24,30 +24,32 @@
     <link rel="shortcut icon" href="0em6.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="center">
-            <div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div><!--logo-->
-
-            <div class="nav-desktop">
-                <ul>
-                    <li id="scroll-sobre-desk"><a>Sobre</a></li>
-                    <li id="scroll-contato-desk"><a>Contato</a></li>
-                </ul>
-            </div><!--nav-desktop-->
-
-            <div class="nav-mobile">
-                <h3 onclick="toggleMenuMobile()"><i class="fas fa-bars"></i></h3>
-
-                <ul id="ul-mobile">
-                    <li id="scroll-sobre-mob"><a>Sobre</a></li>
-                    <li id="scroll-contato-mob"><a>Contato</a></li>
-                </ul>
-            </div><!--nav-mobile-->
-            <div class="clear"></div><!--clear-->
-        </div><!--center-->
-    </header>
-
+    
     <section class="chamada-principal" id="chamada-principal">
+    
+        <header>
+            <div class="center">
+                <div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div><!--logo-->
+
+                <div class="nav-desktop">
+                    <ul>
+                        <li id="scroll-sobre-desk"><a>Sobre</a></li>
+                        <li id="scroll-contato-desk"><a>Contato</a></li>
+                    </ul>
+                </div><!--nav-desktop-->
+
+                <div class="nav-mobile">
+                    <h3 onclick="toggleMenuMobile()"><i class="fas fa-bars"></i></h3>
+
+                    <ul id="ul-mobile">
+                        <li id="scroll-sobre-mob"><a>Sobre</a></li>
+                        <li id="scroll-contato-mob"><a>Contato</a></li>
+                    </ul>
+                </div><!--nav-mobile-->
+                <div class="clear"></div><!--clear-->
+            </div><!--center-->
+        </header>
+
         <div class="overlay"></div><!--overlay-->
 
                 <div class="person-chamada">
@@ -88,6 +90,7 @@
     </section><!--sobre-->
 
     <section class="anuncio" id="anuncio">
+        <div class="overlay"></div>
         <div class="center">
             <h2 class="title-anuncio"><i class="fas fa-exclamation-circle"></i>&nbsp; ATENÇÃO &nbsp;<i class="fas fa-exclamation-circle"></i></h2>
             <p class="sub-title">Assista o vídeo até o final.</p>

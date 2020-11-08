@@ -13,7 +13,7 @@ body,html {
 .center {max-width: 1280px;margin: 0 auto; padding: 0 2%; width: 100%;height: 100%;}
 
 header {
-    background-color: #56167e;
+    background-color: rgba(0,0,0,0.3);
     height: 70px;
     transition: 0.3s;
 
@@ -83,7 +83,8 @@ header {
             transition: 0.3s;
 
             &:hover {
-                background-color: #4d1370;
+                background-color: rgba(49, 49, 49, 0.3);
+                border-radius: 10px;
             }
 
             a {
@@ -106,6 +107,7 @@ section.chamada-principal {
     position: relative;
     background-image: url('../images/chamada.jpg');
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 600px;
 
@@ -278,13 +280,24 @@ section.anuncio {
     background-image: url('../images/bg-video.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     width: 100%;
     padding: 40px 0;
     padding-bottom: 120px;
 
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.2);
+    }
+
     .center {max-width: 960px;}
 
-    h2.title-anuncio, p.sub-title {color: red;text-align: center; width: 100%;}
+    h2.title-anuncio, p.sub-title {color: red;text-align: center; width: 100%;position: relative;z-index: 1;}
     h2.title-anuncio {font-size: 50px;padding-top: 50px;}
     p.sub-title {color:white; font-size: 25px;margin-bottom: 40px;}
 
@@ -294,6 +307,8 @@ section.anuncio {
         padding-top: 56.25%;
         position: relative;
         border-radius: 10px;
+        position: relative;
+        z-index: 1;
 
         iframe {
             position: absolute;
@@ -317,6 +332,8 @@ section.anuncio {
 
 
     .preco-anuncio {
+        position: relative;
+        z-index: 1;
         text-align: center;
 
         h2 {
@@ -333,7 +350,7 @@ section.anuncio {
             font-size: 21px;
 
             b {
-                color: rgb(0, 0, 200);
+                color: orange;
                 font-size: 25px;
             }
 
@@ -347,6 +364,8 @@ section.anuncio {
     
 
     a.btn-chamada {
+        position: relative;
+        z-index: 1;
         margin-top: 30px;
         display: block;
         text-decoration: none;
@@ -399,7 +418,7 @@ section.descricao {
 }
 
 .footer-top {
-    background-color: #7b1fa2;
+    background-color: #953cbe;
     color: white;
     padding: 15px 0;
     padding-bottom: 30px;
@@ -450,7 +469,7 @@ section.descricao {
 
 footer {
     width: 100%;
-    background-color: #6a1b9a;
+    background-color: #8822c7;
     color: white;
     text-align: center;
     padding: 15px 0;
