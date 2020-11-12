@@ -103,7 +103,7 @@
 
             <div class="preco-anuncio">
                 <h2>De <b>R$409,90</b></h2>
-                <p>Por Apenas <b>R$259,90</b></p><span>(VALOR ESPECIAL DE BLACK NOVEMBER, APROVEITE!)</span>
+                <p>Por Apenas <b>R$259,90</b>/mensal</p><span>(VALOR ESPECIAL DE BLACK NOVEMBER, APROVEITE!)</span>
             </div><!--preco-anuncio-->
 
             <span id="spanRelogio">Tempo para a promoção expirar: </span>
