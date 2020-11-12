@@ -276,11 +276,29 @@ section.anuncio {
       color: white;
       font-size: 21px; }
       section.anuncio .preco-anuncio p b {
-        color: orange;
+        color: #fffb00;
         font-size: 25px; }
     section.anuncio .preco-anuncio span {
       font-size: 15px;
       color: white; }
+  section.anuncio span {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 24px; }
+    section.anuncio span p {
+      display: inline-block;
+      margin: 10px 0 !important; }
+    section.anuncio span b {
+      font-size: 35px;
+      color: #fffb00;
+      background-color: rgba(255, 255, 255, 0.301);
+      padding: 8px;
+      border-radius: 10px; }
   section.anuncio a.btn-chamada {
     position: relative;
     z-index: 1;
@@ -405,7 +423,14 @@ footer {
     width: 100% !important; }
 
   section.sobre {
-    max-height: none !important; } }
+    max-height: none !important; }
+
+  section.anuncio span b {
+    display: inline-block !important; }
+
+  section.anuncio span p {
+    display: block !important;
+    margin: 0 auto; } }
 @media (max-width: 500px) {
   .nav-desktop {
     display: none !important; }
@@ -421,13 +446,13 @@ footer {
     display: block; }
 
   h2.title-anuncio {
-    font-size: 36px !important; }
+    font-size: 29px !important; }
 
   section.anuncio .center {
     max-width: none !important; }
 
   .texto-chamada-principal h2 {
-    font-size: 24px !important; }
+    font-size: 19px !important; }
 
   .btn-chamada {
     font-size: 18px !important; } }

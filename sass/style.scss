@@ -354,7 +354,7 @@ section.anuncio {
             font-size: 21px;
 
             b {
-                color: orange;
+                color: rgb(255, 251, 0);
                 font-size: 25px;
             }
 
@@ -363,6 +363,27 @@ section.anuncio {
         span {
             font-size: 15px;
             color: white;
+        }
+    }
+
+    span {
+        margin-top: 10px;
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        font-size: 24px;
+
+        p {display: inline-block; margin: 10px 0 !important;}
+
+        b {
+            font-size: 35px;
+            color: rgb(255, 251, 0);
+            background-color: rgba(255, 255, 255, 0.301);
+            padding: 8px;
+            border-radius: 10px;
         }
     }
     
@@ -521,6 +542,9 @@ footer {
     }
 
     section.sobre {max-height: none !important;}
+
+    section.anuncio span b {display: inline-block !important;}
+    section.anuncio span p {display: block !important; margin: 0 auto;}
 }
 
 @media (max-width:500px) {
@@ -532,14 +556,14 @@ footer {
 
     a.insta {display: block;margin-bottom: 10px;}
     a.yt {display: block;}
-    h2.title-anuncio {font-size: 36px !important;}
+    h2.title-anuncio {font-size: 29px !important;}
 
     section.anuncio {
         .center {max-width: none !important;}
     }
 
     .texto-chamada-principal {
-        h2 {font-size: 24px !important;}
+        h2 {font-size: 19px !important;}
     }
 
     .btn-chamada {font-size: 18px !important;}

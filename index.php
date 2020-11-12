@@ -105,8 +105,11 @@
                 <h2>De <b>R$409,90</b></h2>
                 <p>Por Apenas <b>R$259,90</b></p><span>(VALOR ESPECIAL DE BLACK NOVEMBER, APROVEITE!)</span>
             </div><!--preco-anuncio-->
+
+            <span id="spanRelogio">Tempo para a promoção expirar: </span>
             
-            <a class="btn-chamada" href="http://bit.ly/30ti0rM" target="_blank"><i class="fas fa-flag-usa"></i>&nbsp; EU QUERO OBTER A FLUÊNCIA! &nbsp;<i class="fas fa-flag-usa"></i></a>
+            <a class="btn-chamada" href="https://pag.ae/7WyT2NrcQ" target="_blank"><i class="fas fa-flag-usa"></i>&nbsp; EU QUERO OBTER A FLUÊNCIA! &nbsp;<i class="fas fa-flag-usa"></i></a>
+            <h6><i class="fas fa-shield-alt"></i>&nbsp; Compra totalmente segura pelo PagSeguro &nbsp;<i class="fas fa-shield-alt"></i></h6>
 
         </div><!--center-->
     </section><!--anuncio-->
