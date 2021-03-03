@@ -1,5 +1,5 @@
 # Quite Fluency
-[![NPM](https://img.shields.io/apm/l/quitefluency)](https://github.com/Nypeeh/quitefluency/blob/main/LICENSE) 
+[![License](https://img.shields.io/github/license/nypeeh/quitefluency)](https://github.com/Nypeeh/quitefluency/blob/main/LICENSE) 
 
 # Sobre o projeto
 
