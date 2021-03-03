@@ -1,14 +1,46 @@
-![Quite Fluency](https://user-images.githubusercontent.com/71713087/109818515-d123ba80-7c11-11eb-8b25-e2ba626cc737.png)
-
 # Quite Fluency
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Nypeeh/quitefluency/blob/main/LICENSE) 
 
-## Esta Landing Page foi o meu primeiro projeto oficial como um programador após meses de estudo, e bom, o layout ficou totalmente responsivo.
+# Sobre o projeto
 
-### ETAPAS DE APRENDIZADO:
-
-- Apliquei todo o meu conhecimento em HTML, CSS e JavaScript(jQuery) e consegui finalizar o projeto para seu propósito principal.
-- Eu não tinha idéia do quão bom ficaria após esta experiência, mas foi muito importante.
-
-
-Caso queira visitar o site, acesse:
 http://zeroemseis.herokuapp.com/
+
+Quite Fluency foi uma aplicação desenvolvida somente em Front-End
+
+A aplicação consiste em uma Landing Page para divulgação de ensino de inglês por um Professor qualificado.
+
+## Layout mobile
+![Mobile](https://user-images.githubusercontent.com/71713087/109822147-74c29a00-7c15-11eb-984e-adaf362bf20f.png)
+
+
+## Layout web
+![Web](https://user-images.githubusercontent.com/71713087/109821987-49d84600-7c15-11eb-80b9-3981ae8c16a1.png)
+
+# Tecnologias utilizadas
+
+## Front end
+- HTML / CSS / JS / jQuery
+
+## Implantação em produção
+- Front end web: Heroku
+
+# Como executar o projeto
+
+## Front end Web
+Pré-requisitos: Nenhum
+
+```bash
+
+# Clonar repositório
+git clone https://github.com/Nypeeh/quitefluency.git
+
+# Entrar na pasta do projeto Front-End web
+cd quitefluency
+
+```
+
+# Autor
+
+Leonardo Armejo
+
+https://www.linkedin.com/in/leonardo-armejo-7ab971203/
