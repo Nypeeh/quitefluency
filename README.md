@@ -6,3 +6,7 @@ ETAPAS DE APRENDIZADO:
 
 - Apliquei todo o meu conhecimento em HTML, CSS e JavaScript(jQuery) e consegui finalizar o projeto para seu propósito principal.
 - Eu não tinha idéia do quão bom ficaria após esta experiência, mas foi muito importante.
+
+
+Caso queira visitar o site, acesse:
+http://zeroemseis.herokuapp.com/
