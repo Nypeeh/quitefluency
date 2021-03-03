@@ -19,7 +19,7 @@ A aplicação consiste em uma Landing Page para divulgação de ensino de inglê
 # Tecnologias utilizadas
 
 ## Front end
-- HTML / CSS / JS / jQuery
+- HTML / CSS / SCSS / JS / jQuery
 
 ## Implantação em produção
 - Front end web: Heroku
